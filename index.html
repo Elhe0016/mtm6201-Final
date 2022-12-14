@@ -11,6 +11,9 @@
     <!--  font awesome icons  -->
     <link rel="stylesheet" href="./css/all.min.css">
 
+    <!--Animate On Scroll Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <!--  Magnific Popup css file  -->
     <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
@@ -33,7 +36,7 @@
         <div class="container-fluid" >
           <!--Logo-->
           <a class="navbar-brand" href="index.html">
-            <img src="images/Logo.png" alt="Yumna's Logo" width="150">
+            <img src="images/Logo.png" alt="Yumna's Logo" width="200">
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -211,7 +214,153 @@
 </section>
 
 <!--  ====================== End Services Area =============================  -->
+<!--  ======================= Portfolio Area =============================  -->
 
+<section class="project-area">
+  <div class="container">
+      <div class="project-title pb-5">
+          <h1 class="text-uppercase title-h1">Yumna's Portfolio & Recent Projects</h1>
+          <h1 class="text-uppercase title-h1">Quality Work</h1>
+      </div>
+
+      <div class="button-group">
+          <button type="button" class="active" id="btn1" data-filter="*">All</button>
+          <button type="button" data-filter=".WebDev">Web Development</button>
+          <button type="button" data-filter=".UX">UX Design</button>
+          <button type="button" data-filter=".Graphic">Graphic Design</button>
+          <button type="button" data-filter=".Photography">Photography & Videography </button>
+      </div>
+
+      <div class="row grid">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item photography">
+            
+              <div class="our-project">
+                  <div class="img">
+                    <div data-aos="fade-down"
+                      data-aos-easing="linear"
+                      data-aos-duration="3500">
+                      <img src="images/IMG_0536.JPG" alt="Photography-1" class="img-fluid">
+                        </div>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Food Photography</h4>
+                      <span class="text-secondary">Photography, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+              <div class="our-project">
+                  <div class="img">
+                    <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+               
+                          <img src="images/IMG_0727.JPG" alt="Photography-2" class="img-fluid">
+                        </div>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Paint Wall</h4>
+                      <span class="text-secondary">Popular, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+              <div class="our-project">
+                  <div class="img">
+                      <a class="test-popup-link" href="./img/portfolio/p3.jpg">
+                          <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
+                      </a>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Female light</h4>
+                      <span class="text-secondary">Popular, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                  <div class="img">
+                      <a class="test-popup-link" href="./img/portfolio/p4.jpg">
+                          <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
+                      </a>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Fourth Air</h4>
+                      <span class="text-secondary">Upcoming, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                  <div class="img">
+                      <a class="test-popup-link" href="./img/portfolio/p5.jpg">
+                          <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
+                      </a>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Muliple fown</h4>
+                      <span class="text-secondary">Upcoming, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+              <div class="our-project">
+                  <div class="img">
+                      <a class="test-popup-link" href="./img/portfolio/p6.jpg">
+                          <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
+                      </a>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Together sign</h4>
+                      <span class="text-secondary">Following, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+              <div class="our-project">
+                  <div class="img">
+                      <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                          <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
+                      </a>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Green Heaven</h4>
+                      <span class="text-secondary">Following, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+              <div class="our-project">
+                  <div class="img">
+                      <a class="test-popup-link" href="./img/portfolio/p8.jpg">
+                          <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
+                      </a>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Fly Male</h4>
+                      <span class="text-secondary">Following, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                  <div class="img">
+                      <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                          <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
+                      </a>
+                  </div>
+                  <div class="title py-4">
+                      <h4 class="text-uppercase">Camera Lens</h4>
+                      <span class="text-secondary">Upcoming, Portfolio</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--  ======================= End Portfolio Area =============================  -->
 
     <!--  ======================= Footer ================================ -->
 
@@ -233,7 +382,12 @@
       </div>
   </footer>
 
+<!-- AOS-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
 
+  </script>
     <!--  isotope js library  -->
     <script src="./vendor/isotope/isotope.min.js"></script>
 
