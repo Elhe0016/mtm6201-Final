@@ -9,7 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!--  font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css">
+    <script src="https://kit.fontawesome.com/99d246f297.js" crossorigin="anonymous"></script>
+
 
     <!--Animate On Scroll Library-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -19,24 +20,31 @@
 
 
   </head>
+  <section id="wvm">
   <body>
-    <section id="wvm">
-      
-    <header class="bg-primary">
+    <header role="banner"> 
+      <!--Skip links-->
+    <ul class="skip-links"> 
+        <li><a href="#navigatiion"> Main Navigation</a></li>
+        <li><a href="#banner"> main-banner</a></li>
+        <li><a href="#portfolio"> Featured Products</a></li>
+    </ul>   
+
+  
       <!--nav bar--> 
-      <nav class="navbar navbar-expand-lg bg-primary">
+      <nav class="navbar navbar-expand-lg bg-dark" id="navigatiion">
         <div class="container-fluid" >
           <!--Logo-->
           <a class="navbar-brand" href="index.html">
             <img src="images/Logo.png" alt="Yumna's Logo" width="200">
             </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About Me</a>
@@ -50,7 +58,7 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-primary" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -58,14 +66,15 @@
     </header> 
 <!--banner-->
 
-<div class="container">
+
+<div class="container" id="banner">
   <div class="row py-2" >
-    <div class="col-sm-10 col-md-6">
+    <div class="col-sm-12 col-md-6">
       <h1 class= "display-1 py-5">Yumna El Hendi</h1>
        <p>Enthusiastic, motivated current student working toward a diploma in Interactive Media Design and   seeking an opportunity to begin a career in the web design and development field.</p>
     </div>
     <div class="col-sm-10 col-md-6">
-      <img src="images/profile.JPG" class="img-fluid" alt="Yumna" >
+      <img src="images/profile-400_x_600.JPG" id="profile" class="img-fluid" alt="Yumna" >
     </div>
   </div>
 </div>
@@ -78,245 +87,18 @@
 
 <div class="container-xl">
 
-<!-- About Me-->
-<section class="about-area py-5">
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col-lg-6 col-md-12">
-              <div class="about-image">
-                  <img src="images/profile-400_x_400.JPG" alt="About us" class="img-fluid">
-              </div>
-          </div>
-          <div class="col-lg-6 col-md-12 about-title">
-              <h2 class="text-uppercase pt-5">
-                  <span>Let me</span>
-                  <span>introduce</span>
-                  <span>myself</span>
-              </h2>
-              <div class="paragraph py-4 w-75">
-                  <p class="para">
-                      My name is Yumna El Hendi, I am an enthusiastic, motivated current student working toward a diploma in Interactive Media Design and
-                      seeking an opportunity to begin a career in the web design and development field.   
-                  </p>
-                  <p class="para">
-                      During my study, I have learned Web Debelopment, UX design, Graphic Design, Photography and Videography.
-                  </p>
-              </div>
-              <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
-          </div>
-      </div>
-  </div>
-</section>
-</div>
-
-<!--  Services -->
-<section class="services-area">
-  <div class="container shadow-lg p-3 mb-5 bg-body rounded">
-      <div class="row">
-          <div class="col-lg-12 text-center services-title">
-              <h1 class="text-uppercase title-text">Services Offered</h1>
-              <h3>
-                My Areas of Expertise
-              </h3>
-          </div>
-      </div>
-
-      <div class="container services-list">
-          <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                  <div class="services">
-                      <div class="sevices-img text-center py-4">
-                          <img src="images/web.png" class="img-fluid" alt="webdev">
-                      </div>
-                      <div class="card-body px-5 container shadow-lg p-3 mb-5 bg-body rounded">
-                          <h5 class="card-title text-uppercase font-roboto">Web developer</h5>
-                          <div class="card-text text-secondary py-4 "></div>
-                            <ul class="navbar-nav">
-                            <li class="card-text text-secondary"> HTML / CSS </li>
-                            <li class="card-text text-secondary">Word Press</li>
-                            <li class="card-text text-secondary">Drupal </li>
-                            <li class="card-text text-secondary">Shopify </li>
-                          </ul>
-                          
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                  <div class="services">
-                      <div class="sevices-img text-center py-4">
-                          <img src="images/ux.png" class="img-fluid" alt="Services-2">
-                      </div>
-                      <div class="card-body text-center container shadow-lg p-3 mb-5 bg-body rounded">
-                          <h5 class="card-title text-uppercase font-roboto">UX Design</h5>
-                          <p class="card-text text-secondary py-4">
-                             Professional, eye catching Web Designs.
-                          </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                  <div class="services">
-                      <div class="sevices-img text-center py-4">
-                          <img src="images/photography.png" class="img-fluid" alt="Services-3">
-                      </div>
-                      <div class="card-body text-center container shadow-lg p-3 mb-5 bg-body rounded">
-                          <h5 class="card-title text-uppercase font-roboto">Photography & Videography</h5>
-                          <p class="card-text text-secondary ">
-                              Book your photo session today with Yumna Designs, or create the eye catching video advertisement
-                          </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                  <div class="services">
-                      <div class="sevices-img text-center py-4 ">
-                          <img src="images/graphic.png" class="img-fluid" alt="Services-4">
-                      </div>
-                      <div class="card-body px-5 container shadow-lg p-3 mb-5 bg-body rounded">
-                          <h5 class="card-title text-uppercase font-roboto">Graphic Design</h5>
-                          <p class="card-text text-secondary">
-                            <ul>
-                            <li class="card-text text-secondary"> Logos</li>
-                            <li class="card-text text-secondary"> Posters</li>
-                            <li class="card-text text-secondary"> Printables</li>    
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-
-<!--  ====================== End Services Area =============================  -->
 <!--  ======================= Portfolio Area =============================  -->
 
-<section class="project-area">
+<section class="project-area" id="portfolio">
   <div class="container">
       <div class="project-title pb-5"> 
-          <h1 class="text-uppercase text-center title-h1">Yumna's Portfolio & Recent Projects</h1>
+          <h1 class="text-uppercase text-center title-h1">Yumna's Recent Projects</h1>
           <h1 class="text-uppercase text-center title-h1">School Projects</h1>
         </div>
-
-      <div class="row grid" id="product-list">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="our-project">
-                  <div class="img">
-                    <div data-aos="fade-down"
-                      data-aos-easing="linear"
-                      data-aos-duration="3500">
-                      <a class="test-popup-link" href="images/IMG_0366.JPG">
-                      <img src="images/IMG_0366.JPG" alt="Photography-1" class="img-fluid">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="title py-4">
-                    <h4 class="text-uppercase">Portrait</h4>
-                    <span class="text-secondary">Photography, Portfolio</span>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 ">
-              <div class="our-project">
-                  <div class="img">
-                    <div data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <a class="test-popup-link" href="images/IMG_0727.JPG">
-
-                          <img src="images/IMG_0727.JPG" alt="Photography-2" class="img-fluid">
-                    </a>
-                        </div>
-                  </div>
-                  <div class="title py-4">
-                      <h4 class="text-uppercase">Portrait</h4>
-                      <span class="text-secondary">Photography, Portfolio</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item ">
-            <div class="our-project">
-                <div class="img">
-                  <div data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="3500">
-                    <a class="test-popup-link" href="images/IMG_0957.JPG">
-                      <img src="images/IMG_0957.JPG" alt="photography-3" class="img-fluid">
-                  </a>
-                  </div>                
-                    <div class="title py-4">
-                        <h4 class="text-uppercase">Food Photography</h4>
-                        <span class="text-secondary">Photography, Portfolio</span>
-                    </div>
-                    </div>
-                  </div>
-        
-                </div>
-          </div>   
-
-                    <div class="row grid">
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 ">
-                        <div class="our-project">
-                            <div class="img">
-                              <div data-aos="fade-right"
-                              data-aos-offset="300"
-                              data-aos-easing="ease-in-sine">
-                              <a class="test-popup-link" href="images/IMG_0799.JPG">
-          
-                                    <img src="images/IMG_0799.JPG" alt="Photography-4" class="img-fluid">
-                              </a>
-                                  </div>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Portrait</h4>
-                                <span class="text-secondary">Photography, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="our-project">
-                            <div class="img">
-                                <div data-aos="fade-down"
-                                data-aos-easing="linear"
-                                data-aos-duration="3500">
-                              <a class="test-popup-link" href="images/IMG_0697.JPG">
-          
-                                    <img src="images/IMG_0697.JPG" alt="Photography-5" class="img-fluid">
-                              </a>
-                                  </div>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Nature</h4>
-                                <span class="text-secondary">Photography, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="our-project">
-                            <div class="img">
-                                <div data-aos="fade-down"
-                                data-aos-easing="linear"
-                                data-aos-duration="3500">
-                              <a class="test-popup-link" href="images/IMG_0870.JPG">
-          
-                                    <img src="images/IMG_0870.JPG" alt="Photography-6" class="img-fluid">
-                              </a>
-                                  </div>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Nature</h4>
-                                <span class="text-secondary">Photography, Portfolio</span>
-                            </div>
-            </div>
-        </div>      
-        
-
                 <div class="row grid"> 
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="our-project">
-                            <div class="img">
+                            <div class="card-img">
                               <div data-aos="fade-right"
                               data-aos-offset="300"
                               data-aos-easing="ease-in-sine">
@@ -333,7 +115,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="our-project">
-                          <div class="img">
+                          <div class="card-img">
                               <div data-aos="fade-down"
                               data-aos-easing="linear"
                               data-aos-duration="3500">
@@ -351,7 +133,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="our-project">
-                          <div class="img">
+                          <div class="card-img">
                             <div data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine">
@@ -372,7 +154,7 @@
 
                             <div class="col-lg-4 col-md-6 col-sm-12 element-item ux">
                                 <div class="our-project">
-                                    <div class="img">
+                                    <div class="card-img">
                                       <div data-aos="fade-right"
                                       data-aos-offset="300"
                                       data-aos-easing="ease-in-sine">
@@ -390,7 +172,7 @@
                             
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="our-project">
-                                    <div class="img">
+                                    <div class="card-img">
                                         <div data-aos="fade-down"
                                         data-aos-easing="linear"
                                         data-aos-duration="3500">
@@ -407,19 +189,19 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="our-project">
-                                    <div class="img">
+                                    <div class="card-img">
                                       <div data-aos="fade-right"
                                       data-aos-offset="300"
                                       data-aos-easing="ease-in-sine">
-                                      <a class="test-popup-link" href="images/IMG_0876.JPG">
-                  
-                                            <img src="images/IMG_0876.JPG" alt="Photography-6" class="img-fluid">
+                                      <a href= "https://github.com/Elhe0016/portfolio.git" target="_blank">
+                                        <img src="images/portfolio.png" alt="web-dev1" class="img-fluid">
+
                                       </a>
                                           </div>
                                     </div>
                                     <div class="title py-4">
-                                        <h4 class="text-uppercase">Nature</h4>
-                                        <span class="text-secondary">Photography, Portfolio</span>
+                                        <h4 class="text-uppercase">Portfolio website</h4>
+                                        <span class="text-secondary">Web Development, Portfolio</span>
                                     </div>
                                     </div>
                                 </div>      
@@ -431,7 +213,7 @@
 
     <div class="col-lg-4 col-md-6 col-sm-12 element-item ux">
         <div class="our-project">
-            <div class="img">
+            <div class=".card-img">
               <div data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine">
@@ -449,7 +231,7 @@
     
     <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="our-project">
-            <div class="img">
+            <div class=".card-img">
                 <div data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="3500">
@@ -466,59 +248,53 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="our-project">
-            <div class="img">
+            <div class=".card-img">
               <div data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine">
-              <a class="test-popup-link" href="images/IMG_0876.JPG">
-
-                    <img src="images/IMG_0876.JPG" alt="Photography-6" class="img-fluid">
+               <a href= "https://youtu.be/79l4bW7mr30" target="_blank">
+                    <img src="images/womenright.png" alt="Photography-6" class="img-fluid">
               </a>
                   </div>
             </div>
             <div class="title py-4">
-                <h4 class="text-uppercase">Nature</h4>
-                <span class="text-secondary">Photography, Portfolio</span>
+                <h4 class="text-uppercase">Video Production</h4>
+                <span class="text-secondary">Be the Voice of Iranian Women</span>
             </div>
             </div>
         </div>      
 </div>
 
+<div class="row grid justify-content-center">
 
+  <div class="col-lg-9 ">
+      <div class="our-project">
+          <div class="img">
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <a href="https://youtu.be/LqrLvZeHaoo" target="_blank">
+              <img src="images/sister.png" alt="Video Production-1" class="img-fluid"> 
+            </a> 
+                </div>
+          </div>
+          <div class="title py-4">
+            <h4 class="text-uppercase">Video Production</h4>
+            <span class="text-secondary">Dear Sister, Women Rights project</span>
+          </div>
+      </div>
+  </div>
   </div>
 </div>
 </section> 
 
 <!--  ======================= End Portfolio Area =============================  -->
-<!--Contact section-->
-<div class="container-xl my-4">
-    <h2 class="display-5"> Contact Me</h2> 
-    <div class="col-md-8">
-    <h3> Send me a message</h3>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Name</label>
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlInput2" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea3" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
-    </div> 
-    <button type="button" class="btn btn-primary"
-    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-      Send
-  </button>
-  
-    </div>
-  </div>
+
     <!--  ======================= Footer ================================ -->
 
     <footer class="footer-area">
       <div class="container">
-          <div class="bg-dark">
+          <div class="bg-dark text-light">
               <div class="social text-center">
                   <h5 class="text-uppercase">Follow me</h5>
                   <a href="https://www.facebook.com/yumna.h.125"><i class="fa-brands fa-facebook"></i></a>
@@ -526,7 +302,7 @@
                   <a href="https://www.youtube.com/channel/UCKBLdKNolmuDioi9BQ9f1Zg"><i class="fab fa-youtube"></i></a>
               </div>
               <div class="copyrights text-center bg-dark">
-                  <p class="para">
+                  <p class="para text-light">
                       Copyright ©2022, Yumna Designs, All rights reserved 
                   </p>
               </div>
@@ -550,8 +326,6 @@
     <!--  bootstrap   JS-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   
- 
-
 </body>
 </html>
 
