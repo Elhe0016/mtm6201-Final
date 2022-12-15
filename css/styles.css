@@ -31,8 +31,6 @@ body{
     position: absolute;
 }
 
-#profile{
-max-height: 500px}
 
 /* skip links  */
 
@@ -87,9 +85,6 @@ svj{
     background-color: var(--bs-secondary);
     color: var(--bs-light);
  }
-i{
-    size: 2rem;
-}
 
 footer{
     width: 100%;
